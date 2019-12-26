@@ -51,8 +51,6 @@ $(function () {
             'text': text,
             'name': name
         }, function (data, s) {
-            console.log(data)
-            console.log(s)
             if (data == 3 && s == 'success') {
                 alert('发送成功');
                 $('#email').val('')
